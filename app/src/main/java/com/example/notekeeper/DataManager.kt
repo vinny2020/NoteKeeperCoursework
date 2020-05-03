@@ -11,7 +11,8 @@ object DataManager {
 
     private fun initializeNotes() {
        notes.add(NoteInfo(CourseInfo("android_intents", "Android Programming with Intents"),"First Note","OMG I can't believe that this is my first note!"))
-       notes.add(NoteInfo(CourseInfo("android_sync", "Android Async Programming and Services"),"First Note","OMG I can't believe that this is my second note!"))
+       notes.add(NoteInfo(CourseInfo("android_sync", "Android Async Programming and Services"),"Second note","Wow I believe that this is my second note!"))
+       notes.add(NoteInfo(CourseInfo("java_lang", "Core Java"),"my java Note","Learning the core libraries"))
     }
 
     private fun initializeCourses() {
