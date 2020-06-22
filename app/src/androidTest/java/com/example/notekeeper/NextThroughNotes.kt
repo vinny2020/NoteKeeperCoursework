@@ -13,8 +13,10 @@ import androidx.test.espresso.action.ViewActions.closeSoftKeyboard
 import androidx.test.espresso.Espresso.pressBack
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
+import org.junit.Ignore
 
 @RunWith(JUnit4::class)
+@Ignore
 class NextThroughNotes {
     @Rule
     @JvmField

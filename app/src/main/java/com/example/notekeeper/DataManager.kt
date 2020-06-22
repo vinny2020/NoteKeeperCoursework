@@ -24,5 +24,7 @@ object DataManager {
         notes.add(NoteInfo(androidSync,"Second note","Wow I believe that this is my second note!"))
         notes.add(NoteInfo(javaCore,"my java Note","Learning the core libraries"))
         notes.add(NoteInfo(javaLang,"my other java Note","Learning the core language"))
+        notes.add(NoteInfo(javaLang,"How to be a Java Champion","What it takes to be a champion"))
+        notes.add(NoteInfo(javaLang,"Java 11 features","Learningthe new Java 11 changes"))
     }
 }
